@@ -1,10 +1,12 @@
-# 🛠️ Tooling resources for JavaScript and TypeScript
+# Tooling resources for JavaScript and TypeScript
 
 Developer and build tools exist to avoid predictable problems and to enable efficient workflows, but it's a complex field with a lot of churn, and keeping abreast of it can be a full-time job. This list is intended to give a comprehensive and opinionated overview of the available tooling with a focus on JavaScript, TypeScript and React build tools.
 
 It differs from [awesome] lists in that it includes links to both project homepages and GitHub repos, and to [npm trends] comparisons of packages, and it also lists non-recommended or legacy tools to make it clear that there are better alternatives. It also sets a high bar for tools to be recommended, so that it wouldn't become just a catalogue like is so common with awesome lists.
 
 The intended audience is developers starting or maintaining projects and tool authors. This is an early draft and a work in progress; criticism or other contributions are welcome.
+
+The :octocat: icons are GitHub links.
 
 [awesome]: https://github.com/sindresorhus/awesome
 [*npm trends*]: https://www.npmtrends.com/
