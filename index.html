@@ -55,8 +55,47 @@
         height: 0;
         right: calc(100% + 0.25em);
       }
-      li.active a {
-        /* background-color: var(--blockquote-background) !important; */
+      /* .markdown-section a:hover {
+        text-decoration: none;
+      }
+      .markdown-section a:hover,
+      .markdown-section a {
+        color: var(--blockquote-border-color);
+      } */
+      .icon-list {
+        white-space: nowrap;
+        user-select: none;
+      }
+      .icon-list img {
+        height: 2em;
+        display: inline-block;
+        margin-right: 0.5em;
+      }
+      @keyframes marquee {
+        from {
+          transform: translateX(0);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+      .marquee {
+        position: absolute;
+        left: 0;
+        top: 1em;
+        width: 100vw;
+        max-width: 100%;
+        height: 2em;
+        overflow-x: hidden;
+      }
+      .track {
+        position: absolute;
+        white-space: nowrap;
+        will-change: transform;
+        animation: marquee 160s linear infinite;
+      }
+      #main {
+        margin-top: 2em;
       }
     </style>
   </head>
@@ -90,6 +129,75 @@
           }
         ]
       };
+    </script>
+    <script>
+      function shuffle(a) {
+        for (let i = a.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [a[i], a[j]] = [a[j], a[i]];
+        }
+        return a;
+      }
+      var logos = [
+        "angular-icon.svg",
+        "electron.svg",
+        "karma.svg",
+        "react-styleguidist.svg",
+        "ava.svg",
+        "esdoc.svg",
+        "mocha.svg",
+        "react.svg",
+        "aws.svg",
+        "eslint.svg",
+        "nextjs.svg",
+        "rollupjs.svg",
+        "azure.svg",
+        "github-icon.svg",
+        "nodejs-icon.svg",
+        "storybook-icon.svg",
+        "babel.svg",
+        "github-octocat.svg",
+        "npm-2.svg",
+        "travis-ci.svg",
+        "chai.svg",
+        "gitlab.svg",
+        "npm.svg",
+        "typescript-icon.svg",
+        "cypress.svg",
+        "jasmine.svg",
+        "preact.svg",
+        "webpack.svg",
+        "docusaurus.svg",
+        "javascript.svg",
+        "puppeteer.svg",
+        "yarn.svg"
+      ];
+      logos = Array.prototype.concat.apply(
+        [],
+        Array.from({ length: 5 }, function() {
+          return shuffle(logos);
+        })
+      );
+
+      function cE(name) {
+        var el = document.createElement("div");
+        el.classList.add(name);
+        return el;
+      }
+      var list = cE("list");
+      var marquee = cE("marquee");
+      var track = cE("track");
+      marquee.appendChild(track);
+      track.appendChild(list);
+
+      list.classList.add("icon-list");
+      logos.forEach(function(name) {
+        const img = document.createElement("img");
+        img.setAttribute("src", "./logos/" + name);
+        list.appendChild(img);
+      });
+      var main = document.documentElement;
+      main.insertBefore(marquee, main.firstChild);
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
