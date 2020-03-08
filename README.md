@@ -25,11 +25,11 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - **nwb** ([GitHub](https://github.com/insin/nwb))
   - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
 - [**Next.js**](https://nextjs.org/) ([GitHub](https://github.com/zeit/next.js))
-  - React framework for server-side rendering (SSR)
+  - React framework for server-side rendering
 - [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
-  - Zero-configuration presets for many types of projects
+  - Zero-configuration presets for React, Preact, Vue, web, Node.js projects and libraries
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
-  - Library-oriented preset for TypeScript; not fully mature
+  - Library-oriented preset for TypeScript
 
 ### React presets
 
@@ -186,7 +186,7 @@ Tools for end-to-end, integration and unit testing.
   - `typedoc-plugin-markdown` ([GitHub](https://github.com/tom-grey/typedoc-plugin-markdown))
     - Allows using the generated docs with Docusaurus
 - [**ESDoc**](https://esdoc.org/) ([GitHub](https://github.com/esdoc/esdoc))
-  - A JavaScript API documentation generator
+  - JavaScript API documentation generator
 
 ## 👨‍💻 Monorepos
 
