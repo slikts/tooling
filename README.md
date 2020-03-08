@@ -375,6 +375,10 @@ Tools for developing and testing components and for creating style guides and re
 - [**Loadable Components**](https://loadable-components.com/) ([GitHub](https://github.com/gregberge/loadable-components))
 - **`react-loadable`** ([GitHub](https://github.com/jamiebuilds/react-loadable))
 
+## 💀 Legacy or not recommended tools
+
+[List hosted separately](https://github.com/slikts/tooling/blob/master/not-recommended.md) to avoid confusion.
+
 ## 🙈 See also
 
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
