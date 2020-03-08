@@ -40,7 +40,7 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 ## 🚚 Bundlers
 
-> [_npm trends_](https://www.npmtrends.com/parcel-vs-webpack-vs-rollup-vs-fuse-box-vs-poi-vs-microbundle-vs-happypack-vs-fastpack-vs-webpack-jarvis) 📈
+> [_npm trends_](https://www.npmtrends.com/parcel-vs-webpack-vs-rollup-vs-fuse-box-vs-poi-vs-microbundle-vs-happypack-vs-fastpack-vs-webpack-jarvis-vs-browserify) 📈
 
 - [**webpack**](https://webpack.js.org/) ([GitHub](https://github.com/webpack/webpack))
   - The most popular bundler with a wide ecosystem of plugins; used by popular tools like Create React App
@@ -54,6 +54,8 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
   - Fast, zero-configuration bundler that aims to reduce bundle size; supports TypeScript out of the box
 - [**Poi**](https://poi.js.org/) ([GitHub](https://github.com/egoist/poi))
   - Zero-config bundler based on webpack
+- [**browserify**](http://browserify.org/) ([GitHub](https://github.com/browserify/browserify))
+  - The first JavaScript bundler around
 
 ### Other
 
@@ -109,10 +111,12 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
 
 ## 🐌 Runtimes
 
-- [**babel-node**](https://babeljs.io/docs/en/next/babel-node.html)
+- [**Node.js**](https://nodejs.org/) ([GitHub](https://github.com/nodejs/node))
+  - The de facto standard runtime for JavaScript; includes the `npm` and `npx` tools
+- [**`babel-node`**](https://babeljs.io/docs/en/next/babel-node.html)
   - Can execute or provide a REPL for, e.g., TypeScript
-- [**deno**](https://deno.land/) ([GitHub](https://github.com/denoland/deno))
-  - JavaScript and TypeScript runtime
+- [**Deno**](https://deno.land/) ([GitHub](https://github.com/denoland/deno))
+  - JavaScript and TypeScript runtime with an alternative module design
 
 ## 🏃 Testing
 
@@ -244,6 +248,8 @@ Tools for end-to-end, integration and unit testing.
   - Check TypeScript type definitions with assertions
 - [**AssemblyScript**](https://docs.assemblyscript.org/) ([GitHub](https://github.com/AssemblyScript/assemblyscript))
   - Compile TypeScript to WASM
+- [**ts-jest**](https://kulshekhar.github.io/ts-jest) ([GitHub](https://github.com/kulshekhar/ts-jest))
+  - TypeScript preprocessor with sourcemap support for Jest
 
 ### Rollup plugins
 
@@ -261,6 +267,8 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
 
 > [_npm trends_](https://www.npmtrends.com/yarn-vs-pnpm-vs-tink-vs-npm) 📈
 
+- **npm** ([GitHub](https://github.com/npm/cli))
+  - The package manager included with Node.js
 - [**Yarn**](https://yarnpkg.com/) ([GitHub](https://github.com/yarnpkg/yarn))
   - A replacement for `npm`
 - **tink** ([GitHub](https://github.com/npm/tink))

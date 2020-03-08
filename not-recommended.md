@@ -28,8 +28,6 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 
 ## Bundlers
 
-- [**browserify**](http://browserify.org/) ([GitHub](https://github.com/browserify/browserify))
-  - The first JavaScript bundler around; usable, but increasingly less relevant
 - **minipack** ([GitHub](https://github.com/ronami/minipack))
 - [**StealJS**](https://stealjs.com/) ([GitHub](https://github.com/stealjs/steal))
 - **HappyPack** ([GitHub](https://github.com/amireh/happypack))
@@ -53,8 +51,6 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 
 ## Test tools
 
-- [**ts-jest**](https://kulshekhar.github.io/ts-jest) ([GitHub](https://github.com/kulshekhar/ts-jest))
-  - TypeScript preprocessor with sourcemap support for Jest; not recommended due to [obstructive type error](https://github.com/jaredpalmer/tsdx/issues/521) output
 - **QUnit** ([GitHub](https://github.com/qunitjs/qunit))
   - Java-inspired, dated library
 
