@@ -1,5 +1,10 @@
 # Tooling resources for JavaScript and TypeScript
 
+<p>
+  <a href="https://GitHub.com/slikts/tooling/graphs/contributors/" target="_blank"><img src="https://img.shields.io/github/contributors/slikts/tooling.svg" alt="GitHub contributors"></a>
+  <a href="https://GitHub.com/slikts/tooling/issues/" target="_blank"><img src="https://img.shields.io/github/issues/slikts/tooling.svg" alt="GitHub issues"></a>
+</p>
+
 Developer and build tools exist to avoid predictable problems and to enable efficient workflows, but tooling is a complex field with a lot of churn, and keeping abreast of it can be a full-time job. This list is intended to give a comprehensive and opinionated overview of the available tooling with a focus on JavaScript, TypeScript and React build tools.
 
 It differs from [awesome] lists in that it includes links to both project homepages and GitHub repos, and to [npm trends], and it also lists non-recommended or legacy tools to make it clear that there are better alternatives. It also sets a high bar for tools to be recommended, so that it wouldn't become just a catalogue like is so common with awesome lists.
@@ -26,7 +31,7 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
   - Library-oriented preset for TypeScript; not fully mature
 
-## React presets
+### React presets
 
 - [**Create React App**](https://create-react-app.dev/) ([GitHub](https://github.com/facebook/create-react-app))
   - The most popular React project initializer; supports TypeScript and many other tools, and is a safe choice for starting a React app
@@ -161,7 +166,7 @@ Tools for end-to-end, integration and unit testing.
 - [**React Testing Library**](https://testing-library.com/react) ([GitHub](https://github.com/testing-library/react-testing-library))
   - Focused on avoiding testing implementation details
 
-## 🙈 Benchmarking
+## 🐇 Benchmarking
 
 - **Benny** ([GitHub](https://github.com/caderek/benny))
   - Simple benchmark framework
@@ -329,7 +334,7 @@ Tools for developing and testing components and for creating style guides and re
 - **`shx`** ([GitHub](https://github.com/shelljs/shx))
   - Unix-like shell commands
 
-# ❓ Uncategorized
+## ❓ Uncategorized
 
 - [**Metro**](https://facebook.github.io/metro/) ([GitHub](https://github.com/facebook/metro))
   - Bundler for React Native
@@ -357,25 +362,25 @@ Tools for developing and testing components and for creating style guides and re
 - [**BundlePhobia**](https://bundlephobia.com/)
 - [**API Extractor**](https://api-extractor.com/) ([GitHub](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/README.md))
 
-# 🚧 Unvetted
+## 🚧 Unvetted
 
-## TypeScript boilerplate
+### TypeScript boilerplate
 
 - **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
 
-## React
+### React
 
 - **`react-axe`** ([GitHub](https://github.com/dequelabs/react-axe))
   - Accessibility auditing for React apps
 - [**Loadable Components**](https://loadable-components.com/) ([GitHub](https://github.com/gregberge/loadable-components))
 - **`react-loadable`** ([GitHub](https://github.com/jamiebuilds/react-loadable))
 
-# See also
+## 🙈 See also
 
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
 - [**Awesome lists**](https://github.com/sindresorhus/awesome)
 
-## Outdated resources
+### _Outdated_ resources
 
 - [**frontend-dev-bookmarks Build Tools**](https://github.com/dypsilon/frontend-dev-bookmarks/blob/master/workflow/build-tools.md)
 - [**awesome-javascript**](https://github.com/sorrycc/awesome-javascript)

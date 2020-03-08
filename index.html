@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tooling for JavaScript and TypeScript</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      name="description"
+      content="Overview of developer and build tools for the JavaScript and TypeScript ecosystem."
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css"
+    />
+    <style>
+      .markdown-section blockquote {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        margin: 0.5em 0;
+      }
+      .markdown-section h1,
+      .markdown-section h2,
+      .markdown-section h3 {
+        margin-top: 24px;
+        margin-bottom: 16px;
+        padding-bottom: 0.3em;
+      }
+      .sidebar-nav > ul > li:first-child {
+        display: none;
+      }
+      .sidebar-nav > ul > ul > li {
+        position: relative;
+      }
+      .sidebar-nav > ul > ul > li a {
+        font-weight: 500;
+      }
+      .markdown-section > h2 {
+        position: relative;
+      }
+      .markdown-section > h2:before,
+      .sidebar-nav > ul > ul > li:before {
+        content: attr(data-icon);
+        position: absolute;
+      }
+      .sidebar-nav > ul > ul > li:before {
+        top: 50%;
+        right: 100%;
+        transform: translate(-0.25rem, -50%);
+      }
+      .markdown-section > h2:before {
+        height: 0;
+        right: calc(100% + 0.25em);
+      }
+      li.active a {
+        /* background-color: var(--blockquote-background) !important; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app">Please wait…</div>
+    <script>
+      window.$docsify = {
+        coverpage: false,
+        repo: "https://github.com/slikts/tooling/",
+        loadSidebar: false,
+        coverpage: false,
+        routerMode: "history",
+        subMaxLevel: 0,
+        plugins: [
+          function(hook, vm) {
+            function setupIcon(el) {
+              var text = el.innerText;
+              var parts = text.split(" ");
+              el.dataset.icon = parts.shift();
+              el.firstChild.innerText = parts.join(" ");
+            }
+            hook.ready(function() {
+              document
+                .querySelectorAll(".sidebar-nav > ul > ul > li")
+                .forEach(setupIcon);
+              document
+                .querySelectorAll(".markdown-section > h2")
+                .forEach(setupIcon);
+            });
+          }
+        ]
+      };
+    </script>
+    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  </body>
+</html>
