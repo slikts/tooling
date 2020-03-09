@@ -361,7 +361,7 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
 
 ## 💡 Create React App
 
-> [_npm trends_](https://www.npmtrends.com/react-app-rewired-vs-@craco/craco-vs-customize-cra))
+> [_npm trends_](https://www.npmtrends.com/react-app-rewired-vs-@craco/craco-vs-customize-cra) 📈
 
 Create React App purposely limits its configurability to be able to give developer guarantees, but there are advanced use cases that require configuration while still avoiding "ejecting" from Create React App.
 
