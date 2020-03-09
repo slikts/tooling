@@ -12,8 +12,9 @@ The intended audience is project maintainers and tool authors. The list is selec
 
 The list format includes links to project homepages (if they exist), GitHub pages, and [npm trends] comparisons where applicable. The format differs from the [awesome] template by being slightly more detailed and opinionated.
 
-Criticism, adding omissions and other contributions are welcome.
+Criticism, adding omissions and other contributions are [welcome][issues].
 
+[issues]: https://github.com/slikts/tooling/issues
 [also]: #🙈-see-also
 [awesome]: https://github.com/sindresorhus/awesome
 [npm trends]: https://www.npmtrends.com/
