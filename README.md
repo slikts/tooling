@@ -1,6 +1,6 @@
-# Tooling resources for JavaScript and TypeScript
+<h1 align=center>JavaScript and TypeScript tooling overview</h1>
 
-<p>
+<p align=center>
   <a href="https://GitHub.com/slikts/tooling/graphs/contributors/" target="_blank"><img src="https://img.shields.io/github/contributors/slikts/tooling.svg" alt="GitHub contributors"></a>
   <a href="https://GitHub.com/slikts/tooling/issues/" target="_blank"><img src="https://img.shields.io/github/issues/slikts/tooling.svg" alt="GitHub issues"></a>
 </p>
@@ -22,12 +22,12 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Pika**](https://pika.dev/) ([GitHub](https://github.com/pikapkg/pack))
   - Build `npm` packages using composable plugins
-- **nwb** ([GitHub](https://github.com/insin/nwb))
-  - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
 - [**Next.js**](https://nextjs.org/) ([GitHub](https://github.com/zeit/next.js))
   - React framework for server-side rendering
 - [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
   - Zero-configuration presets for React, Preact, Vue, web, Node.js projects and libraries
+- **nwb** ([GitHub](https://github.com/insin/nwb))
+  - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
   - Library-oriented preset for TypeScript
 
@@ -35,8 +35,10 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Create React App**](https://create-react-app.dev/) ([GitHub](https://github.com/facebook/create-react-app))
   - The most popular React project initializer; supports TypeScript and many other tools, and is a safe choice for starting a React app
+- [**Gatsby**](https://www.gatsbyjs.org/) ([GitHub](https://github.com/gatsbyjs/gatsby))
+  - PWA and static site generator
 - [**React Starter Kit**](https://reactstarter.com/) ([GitHub](https://github.com/kriasoft/react-starter-kit))
-  - "[Isomorphic](https://medium.com/airbnb-engineering/isomorphic-javascript-the-future-of-web-apps-10882b7a2ebc#.4nyzv6jea)" web app boilerplate
+  - "[Isomorphic](https://medium.com/airbnb-engineering/isomorphic-javascript-the-future-of-web-apps-10882b7a2ebc#.4nyzv6jea)" (universal) web app boilerplate
 
 ## 🚚 Bundlers
 
@@ -64,7 +66,7 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - [**Snowpack**](https://snowpack.dev/) ([GitHub](https://github.com/pikapkg/snowpack))
   - Used by Pika
 
-## ✍ Compilers
+## 👨‍💻 Compilers
 
 Tools that allow "transcompiling" or "transpiling" JavaScript.
 
@@ -95,9 +97,11 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
   - `eslint-config-airbnb` ([GitHub](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb))
     - The most popular ruleset for ESLint; relatively conservative
   - [**Standard**](https://standardjs.com/) ([GitHub](https://github.com/standard/standard))
-    - A popular ruleset, but the "standard" title is more tongue in cheek
+    - A popular ruleset, although the "standard" name is more tongue in cheek
   - [**`typescript-eslint`**](https://typescript-eslint.io/) ([GitHub](https://github.com/typescript-eslint/typescript-eslint))
-    - A replacement for the now-deprecated TSLint
+    - Replacement for the now-deprecated TSLint
+  - **`eslint-config-es`** ([GitHub](https://github.com/thenativeweb/eslint-config-es))
+    - ESLint configuration with a focus on strictness; supports TypeScript, React
 - [**Prettier**](https://prettier.io/) ([GitHub](https://github.com/prettier/prettier))
   - Opinionated formatter for JavaScript and TypeScript; useful for automatically enforcing consistent formatting and hence, for example, simplifying code reviews
   - `prettier-eslint` ([GitHub](https://github.com/prettier/prettier-eslint))
@@ -117,6 +121,13 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
   - Can execute or provide a REPL for, e.g., TypeScript
 - [**Deno**](https://deno.land/) ([GitHub](https://github.com/denoland/deno))
   - JavaScript and TypeScript runtime with an alternative module design
+
+### Version managers
+
+- **`nvm`** ([GitHub](https://github.com/nvm-sh/nvm))
+  A commonly used version manager for Node.js
+- **`fnm`** ([GitHub](https://github.com/Schniz/fnm))
+  - Fast Node Manager; built in native ReasonML
 
 ## 🏃 Testing
 
@@ -162,6 +173,8 @@ Tools for end-to-end, integration and unit testing.
 - [**Nightwatch**](https://nightwatchjs.org/) ([GitHub](https://github.com/nightwatchjs/nightwatch))
 - [**Puppeteer**](https://pptr.dev/) ([GitHub](https://github.com/puppeteer/puppeteer))
   - A library for controlling headless Chrome or Chromium instances
+- **Playwright** ([GitHub](https://github.com/microsoft/playwright))
+  - Node library to automate the Chromium, WebKit and Firefox browsers with a single API; made by Microsoft
 
 ### React testing
 
@@ -170,10 +183,19 @@ Tools for end-to-end, integration and unit testing.
 - [**React Testing Library**](https://testing-library.com/react) ([GitHub](https://github.com/testing-library/react-testing-library))
   - Focused on avoiding testing implementation details
 
-## 🐇 Benchmarking
+## 🐇 Performance
+
+### Benchmarking and profiling
 
 - **Benny** ([GitHub](https://github.com/caderek/benny))
   - Simple benchmark framework
+- [**Clinic.js**](https://clinicjs.org) ([GitHub](https://github.com/nearform/node-clinic))
+  - Node.js performance profiling suite
+
+### Performance monitoring
+
+- [**Falco**](https://getfal.co) ([GitHub](https://github.com/theodo/falco))
+  - Automatically audit performance with [WebPageTest](https://www.webpagetest.org/)
 
 ## 📚 Documentation generators
 
@@ -192,7 +214,7 @@ Tools for end-to-end, integration and unit testing.
 - [**ESDoc**](https://esdoc.org/) ([GitHub](https://github.com/esdoc/esdoc))
   - JavaScript API documentation generator
 
-## 👨‍💻 Monorepos
+## ☂️ Monorepos
 
 - [**awesome-monorepo**](https://github.com/korfuri/awesome-monorepo)
   - List of monorepo resources
@@ -250,6 +272,12 @@ Tools for end-to-end, integration and unit testing.
   - Compile TypeScript to WASM
 - [**ts-jest**](https://kulshekhar.github.io/ts-jest) ([GitHub](https://github.com/kulshekhar/ts-jest))
   - TypeScript preprocessor with sourcemap support for Jest
+- **`gts`** ([GitHub](https://github.com/google/gts))
+  - Google TypeScript Style; zero-configuration formatting, linting and code fixing
+- **`tsc-watch`** ([GitHub](https://github.com/gilamran/tsc-watch))
+  - `nodemon` for TypeScript
+- [**Tsearch**](https://tsearch.io) ([GitHub](https://github.com/tsearch-io/tsearch))
+  - Search functions in different packages by their type signature
 
 ### Rollup plugins
 
@@ -271,10 +299,13 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
   - The package manager included with Node.js
 - [**Yarn**](https://yarnpkg.com/) ([GitHub](https://github.com/yarnpkg/yarn))
   - A replacement for `npm`
+  - Recently released [Yarn 2](https://dev.to/arcanis/introducing-yarn-2-4eh1)
 - **tink** ([GitHub](https://github.com/npm/tink))
   - Experimental "dependency unwinder"
 - [**pnpm**](https://pnpm.js.org/en/) ([GitHub](https://github.com/pnpm/pnpm))
   - Links dependencies instead of copying to save space
+- [**entropic**](https://discourse.entropic.dev/) ([GitHub](https://github.com/entropic-dev/entropic))
+  - Federated package registry aiming to [replace npm](https://youtu.be/MO8hZlgK5zc)
 
 ### Package search, vetting
 
@@ -310,6 +341,16 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
   - A configurable tool to set bundle size limits
 - **Size Limit** ([GitHub](https://github.com/ai/size-limit))
   - Performance budget tool
+- **Depcheck** ([GitHub](https://github.com/depcheck/depcheck))
+  - Check `npm` packages for unused dependencies
+- **`why-npm-i-so-long`** ([GitHub](https://github.com/antonk52/why-npm-i-so-long))
+- [**Package Phobia**](https://packagephobia.now.sh/) ([GitHub](https://github.com/styfle/packagephobia))
+- **`nrm`** ([GitHub](https://github.com/Pana/nrm))
+  - `npm` registry manager; fast switch between different registries
+- [**Open-Registry**](https://open-registry.dev/)
+  - Community-funded mirror of the `npm` registry
+- [**Dependency cruiser**](https://npmjs.com/dependency-cruiser) ([GitHub](https://github.com/sverweij/dependency-cruiser))
+  - Validate and visualize dependencies
 
 ## 💡 Create React App
 
@@ -320,7 +361,7 @@ Create React App purposely limits its configurability to be able to give develop
 - **craco** ([GitHub](https://github.com/gsoft-inc/craco))
 - **react-app-rewired** ([GitHub](https://github.com/timarney/react-app-rewired))
 
-## 🎨 Design systems
+## 🎨 Design systems and prototyping
 
 > [_npm trends_](https://www.npmtrends.com/@storybook/cli-vs-react-styleguidist-vs-@compodoc/compodoc-vs-react-cosmos-vs-playroom) 📈
 
@@ -334,6 +375,8 @@ Tools for developing and testing components and for creating style guides and re
   - Design for different screen sizes and themes at the same time using React
 - [**React Cosmos**](https://reactcosmos.org/) ([GitHub](https://github.com/react-cosmos/react-cosmos))
   - A development environment for scalable, high-quality UIs and visual TDD
+- [**Diez**](https://diez.org/) ([GitHub](https://github.com/diez/diez))
+  - Developer toolkit for building [design tokens](https://diez.org/glossary/#tokens)
 
 ## ❌ Cross-platform
 
@@ -342,7 +385,46 @@ Tools for developing and testing components and for creating style guides and re
 - **`shx`** ([GitHub](https://github.com/shelljs/shx))
   - Unix-like shell commands
 
-## ❓ Uncategorized
+## 🗿 GraphQL
+
+- **`eslint-plugin-graphql`** ([GitHub](https://github.com/apollographql/eslint-plugin-graphql))
+  - ESLint plugin to validate GraphQL query strings against a schema
+
+## 🚧 Unvetted or uncategorized
+
+### TypeScript
+
+- **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
+- **`ttypescript`** ([GitHub](https://github.com/cevek/ttypescript))
+  - Wraps `tsc` to enable transforming the compiled code
+
+### React
+
+- **`react-axe`** ([GitHub](https://github.com/dequelabs/react-axe))
+  - Accessibility auditing for React apps
+- [**Loadable Components**](https://loadable-components.com/) ([GitHub](https://github.com/gregberge/loadable-components))
+- **`react-loadable`** ([GitHub](https://github.com/jamiebuilds/react-loadable))
+
+### Package management
+
+- **`reg`** ([GitHub](https://github.com/mikeal/reg))
+  - Experimental package manager for native ES modules
+- **Yarn deduplicate** ([GitHub](https://github.com/atlassian/yarn-deduplicate))
+  - Deduplication tool for `yarn.lock` files
+
+### GraphQL
+
+- [**`babel-blade`**](https://babel-blade.netlify.com/) ([GitHub](https://github.com/babel-blade/babel-blade))
+  - Babel plugin/macro that generates GraphQL query strings inline to solve the [double declaration problem](https://babel-blade.netlify.com/docs/declarationdeclaration.html)
+
+### React
+
+- **React Figma** ([GitHub](https://github.com/react-figma/react-figma))
+  - Render React components to [Figma](https://www.figma.com/)
+- **`jest-react-profiler`** ([GitHub](https://github.com/bvaughn/jest-react-profiler))
+  - Jest helpers for working with the React Profiler API
+
+### Other
 
 - [**Metro**](https://facebook.github.io/metro/) ([GitHub](https://github.com/facebook/metro))
   - Bundler for React Native
@@ -353,7 +435,7 @@ Tools for developing and testing components and for creating style guides and re
 - [**Danger.js**](https://danger.systems/js/) ([GitHub](https://github.com/danger/danger-js))
   - Automated code review chores
 - **`npm-run-all`** ([GitHub](https://github.com/mysticatea/npm-run-all))
-- **svgo** ([GitHub](https://github.com/svg/svgo))
+- **`svgo`** ([GitHub](https://github.com/svg/svgo))
   - SVG file optimizer
 - **Vue Enterprise Boilerplate** ([GitHub](https://github.com/chrisvfritz/vue-enterprise-boilerplate))
 - [**nyc**](https://istanbul.js.org/) ([GitHub](https://github.com/istanbuljs/nyc))
@@ -369,30 +451,48 @@ Tools for developing and testing components and for creating style guides and re
 - **`ncc`** ([GitHub](https://github.com/zeit/ncc))
 - [**BundlePhobia**](https://bundlephobia.com/)
 - [**API Extractor**](https://api-extractor.com/) ([GitHub](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/README.md))
-
-## 🚧 Unvetted
-
-### TypeScript boilerplate
-
-- **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
-
-### React
-
-- **`react-axe`** ([GitHub](https://github.com/dequelabs/react-axe))
-  - Accessibility auditing for React apps
-- [**Loadable Components**](https://loadable-components.com/) ([GitHub](https://github.com/gregberge/loadable-components))
-- **`react-loadable`** ([GitHub](https://github.com/jamiebuilds/react-loadable))
+- [**Neutralino**](https://neutralino.js.org/) ([GitHub](https://github.com/neutralinojs/neutralinojs))
+  - Portable and lightweight cross platform application development framework
+- [**Phenomic**](https://phenomic.io/) ([GitHub](https://github.com/phenomic/phenomic))
+  - Static site generator
+- **tomo** ([GitHub](https://github.com/jhwohlgemuth/tomo-cli))
+  - Zero-config React app generator
+- **Mrm** ([GitHub](https://github.com/sapegin/mrm))
+  - Sync configuration files between projects
+- **`try`** ([GitHub](https://github.com/BrunnerLivio/try))
+  - Quickly try out `npm` packages in a container
+- **`webpack-nano`** ([GitHub](https://github.com/shellscape/webpack-nano))
+  - A lightweight, configurable alternative to `webpack-cli`
+- [**`npkill`**](https://voidcosmos.github.io/npkill/) ([GitHub](https://github.com/voidcosmos/npkill))
+  - List and clean up all `node_modules` directories
+- [**TypL**](https://TypL.dev) ([GitHub](https://github.com/getify/TypL))
+  - JavaScript Type Linter; alternative to TypeScript
+- **`format-graphql`** ([GitHub](https://github.com/gajus/format-graphql))
+  - Alphabetically sorts definitions, fields and arguments in GraphQL schema definition language (SDL)
+- [**Universal PWA Builder**](https://pwa.cafe) ([GitHub](https://github.com/lukeed/pwa))
+  - Zero-configuration PWA presets for Preact, React, Vue and Svelte
+- **StackTracey** ([GitHub](https://github.com/xpl/stacktracey))
+  - Parses, cleans, filters and logs stack traces with source maps
+- [**Codecrumbs**](https://codecrumbs.io) ([GitHub](https://github.com/Bogdan-Lyashenko/codecrumbs))
+  - Visualize codebases
+- [**Static Site Boilerplate**](http://staticsiteboilerplate.com) ([GitHub](https://github.com/ericalli/static-site-boilerplate))
 
 ## 💀 Legacy or not recommended tools
 
-[List hosted separately](https://github.com/slikts/tooling/blob/master/not-recommended.md) to avoid confusion.
+[Listed separately](https://github.com/slikts/tooling/blob/master/not-recommended.md) to avoid confusion.
 
 ## 🙈 See also
 
+- [**JSter**](http://jster.net/blog)
+  - A blog about libraries and tools
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
 - [**Awesome lists**](https://github.com/sindresorhus/awesome)
+- [**StackShare**](https://stackshare.io/)
+  - Site for finding and vetting developer tools
+- [**Free for developers**](https://free-for.dev/)
+  - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 
-### _Outdated_ resources
+### Outdated resources
 
 - [**frontend-dev-bookmarks Build Tools**](https://github.com/dypsilon/frontend-dev-bookmarks/blob/master/workflow/build-tools.md)
 - [**awesome-javascript**](https://github.com/sorrycc/awesome-javascript)

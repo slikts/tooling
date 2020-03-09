@@ -48,11 +48,15 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - [**Documentation.js**](http://documentation.js.org/) ([GitHub](https://github.com/documentationjs/documentation))
 - [**Docco**](http://ashkenas.com/docco/) ([GitHub](https://github.com/jashkenas/docco))
 - [**dexy**](http://www.dexy.it/) ([GitHub](https://github.com/dexy/dexy))
+- [**`ditto`**](http://chutsu.github.io/ditto) ([GitHub](https://github.com/chutsu/ditto))
 
 ## Test tools
 
 - **QUnit** ([GitHub](https://github.com/qunitjs/qunit))
   - Java-inspired, dated library
+- [**PhantomJS**](http://phantomjs.org) ([GitHub](https://github.com/ariya/phantomjs))
+  - Headless browser scripting; development [suspended](https://github.com/ariya/phantomjs/issues/15344)
+- [**Zombie.js**](http://zombie.js.org/) ([GitHub](https://github.com/assaf/zombie/))
 
 ### Coverage
 
@@ -94,3 +98,7 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - **precise-commits** ([GitHub](https://github.com/nrwl/precise-commits))
 - [**NPMCompare.com**](https://npmcompare.com/)
 - [**DocPad**](https://docpad.bevry.me/) ([GitHub](https://github.com/docpad/docpad))
+- [**JSMin**](http://javascript.crockford.com/jsmin.html) ([GitHub](https://github.com/douglascrockford/JSMin))
+- [**CoffeeScript**](https://coffeescript.org/) ([GitHub](https://github.com/jashkenas/coffeescript))
+- **`nvm-windows`** ([GitHub](https://github.com/coreybutler/nvm-windows))
+  - Misleadingly named; isn't `nvm` for Windows
