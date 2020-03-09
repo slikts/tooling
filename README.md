@@ -8,9 +8,9 @@
 
 A quick and up-to-date overview of existing build and developer tools for JavaScript and TypeScript.
 
-The intended audience are project maintainers and tool authors. The list is selective; [non-recommended][non-rec] tools are listed separately. Existing resources with a similar focus on tooling are [listed][also] at the end.
+The intended audience is project maintainers and tool authors. The list is selective; [non-recommended][non-rec] tools are listed separately. Existing resources with a similar focus on tooling are [listed][also] at the end; the motivation for this list is filling a gap in them.
 
-The list format includes links to project homepages (if they exist), GitHub pages, and an [npm trends] comparison where applicable. The format differs from the [awesome] template by being slightly more detailed and opinionated.
+The list format includes links to project homepages (if they exist), GitHub pages, and [npm trends] comparisons where applicable. The format differs from the [awesome] template by being slightly more detailed and opinionated.
 
 Criticism, adding omissions and other contributions are welcome.
 
