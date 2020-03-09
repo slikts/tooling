@@ -483,6 +483,10 @@ Tools for developing and testing components and for creating style guides and re
 - [**Codecrumbs**](https://codecrumbs.io) ([GitHub](https://github.com/Bogdan-Lyashenko/codecrumbs))
   - Visualize codebases
 - [**Static Site Boilerplate**](http://staticsiteboilerplate.com) ([GitHub](https://github.com/ericalli/static-site-boilerplate))
+- [**nodemon**](http://nodemon.io/) ([GitHub](https://github.com/remy/nodemon/))
+  - Development tool for restarting a process on source changes
+- [**PM2**](https://pm2.io) ([GitHub](https://github.com/Unitech/pm2))
+  - Node.js production process manager with a built-in load balancer
 
 ## 💀 Legacy or not recommended tools
 
