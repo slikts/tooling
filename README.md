@@ -3,6 +3,7 @@
 <p align=center>
   <a href="https://GitHub.com/slikts/tooling/graphs/contributors/" target="_blank"><img src="https://img.shields.io/github/contributors/slikts/tooling.svg" alt="GitHub contributors"></a>
   <a href="https://GitHub.com/slikts/tooling/issues/" target="_blank"><img src="https://img.shields.io/github/issues/slikts/tooling.svg" alt="GitHub issues"></a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/slikts/tooling">
 </p>
 
 A quick and up-to-date overview of existing build and developer tools for JavaScript and TypeScript.
