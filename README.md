@@ -5,12 +5,15 @@
   <a href="https://GitHub.com/slikts/tooling/issues/" target="_blank"><img src="https://img.shields.io/github/issues/slikts/tooling.svg" alt="GitHub issues"></a>
 </p>
 
-Developer and build tools exist to avoid predictable problems and to enable efficient workflows, but tooling is a complex field with a lot of churn, and keeping abreast of it can be a full-time job. This list is intended to give a comprehensive and opinionated overview of the available tooling with a focus on JavaScript, TypeScript and React build tools.
+A quick and up-to-date overview of existing build and developer tools for JavaScript and TypeScript.
 
-It differs from [awesome] lists in that it includes links to both project homepages and GitHub repos, and to [npm trends], and it also lists non-recommended or legacy tools to make it clear that there are better alternatives. It also sets a high bar for tools to be recommended, so that it wouldn't become just a catalogue like is so common with awesome lists.
+The intended audience are project maintainers and tool authors. The list is selective; [non-recommended][non-rec] tools are listed separately. Existing resources with a similar focus on tooling are [listed][also] at the end.
 
-The intended audience are developers starting or maintaining projects and tool authors. This is a work in progress; criticism or other contributions are welcome.
+The list format includes links to project homepages (if they exist), GitHub pages, and an [npm trends] comparison where applicable. The format differs from the [awesome] template by being slightly more detailed and opinionated.
 
+Criticism, adding omissions and other contributions are welcome.
+
+[also]: #🙈-see-also
 [awesome]: https://github.com/sindresorhus/awesome
 [npm trends]: https://www.npmtrends.com/
 
@@ -18,14 +21,14 @@ The intended audience are developers starting or maintaining projects and tool a
 
 > [_npm trends_](https://www.npmtrends.com/create-react-app-vs-neutrino-vs-@pika/pack-vs-nwb-vs-tsdx) 📈
 
-Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don't require configuration to start using them.
+Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don't require configuration to start using them. Presets are recommended when starting out and to save the time and effort of building and maintaing a custom stack, but can be limited in certain aspects.
 
 - [**Pika**](https://pika.dev/) ([GitHub](https://github.com/pikapkg/pack))
   - Build `npm` packages using composable plugins
 - [**Next.js**](https://nextjs.org/) ([GitHub](https://github.com/zeit/next.js))
   - React framework for server-side rendering
 - [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
-  - Zero-configuration presets for React, Preact, Vue, web, Node.js projects and libraries
+  - Zero-configuration presets for React, Preact, Vue, web and Node.js projects and libraries
 - **nwb** ([GitHub](https://github.com/insin/nwb))
   - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
@@ -121,6 +124,7 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
   - Can execute or provide a REPL for, e.g., TypeScript
 - [**Deno**](https://deno.land/) ([GitHub](https://github.com/denoland/deno))
   - JavaScript and TypeScript runtime with an alternative module design
+- **ts-node** ([GitHub](https://github.com/TypeStrong/ts-node))
 
 ### Version managers
 
@@ -479,7 +483,9 @@ Tools for developing and testing components and for creating style guides and re
 
 ## 💀 Legacy or not recommended tools
 
-[Listed separately](https://github.com/slikts/tooling/blob/master/not-recommended.md) to avoid confusion.
+[Listed separately][non-rec] to avoid confusion.
+
+[non-rec]: https://github.com/slikts/tooling/blob/master/not-recommended.md
 
 ## 🙈 See also
 
@@ -494,5 +500,6 @@ Tools for developing and testing components and for creating style guides and re
 
 ### Outdated resources
 
+- **JavaScript Stack from Scratch** ([GitHub](https://github.com/verekia/js-stack-from-scratch))
 - [**frontend-dev-bookmarks Build Tools**](https://github.com/dypsilon/frontend-dev-bookmarks/blob/master/workflow/build-tools.md)
 - [**awesome-javascript**](https://github.com/sorrycc/awesome-javascript)

@@ -62,11 +62,6 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 
 - **blanket** ([GitHub](https://github.com/alex-seville/blanket))
 
-## Runtimes
-
-- **ts-node** ([GitHub](https://github.com/TypeStrong/ts-node))
-  - `babel-node` should be preferable
-
 ## Other
 
 - [**Grunt**](https://gruntjs.com/) ([GitHub](https://github.com/gruntjs/grunt))
@@ -88,8 +83,6 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - **React Hot Loader** ([GitHub](https://github.com/gaearon/react-hot-loader))
   - Replaced by [React Fast Refresh](https://github.com/facebook/react/issues/16604)
 - **Retire.js** ([GitHub](https://github.com/RetireJS/retire.js))
-- **JavaScript Stack from Scratch** ([GitHub](https://github.com/verekia/js-stack-from-scratch))
-  - Resource about tooling; years out of date
 - **next-update** ([GitHub](https://github.com/bahmutov/next-update))
 - **dtslint** ([GitHub](https://github.com/microsoft/dtslint))
   - `tsd` should be used instead
