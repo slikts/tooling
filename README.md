@@ -485,12 +485,12 @@ Tools for developing and testing components and for creating style guides and re
 
 - [**JSter**](http://jster.net/blog)
   - Popular blog about libraries and tools
-- [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
-- [**Awesome lists**](https://github.com/sindresorhus/awesome)
 - [**StackShare**](https://stackshare.io/)
   - Social network centered around finding and vetting developer tools
 - [**Free for developers**](https://free-for.dev/)
   - List of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+- [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
+- [**Awesome lists**](https://github.com/sindresorhus/awesome)
 
 ### Outdated resources
 

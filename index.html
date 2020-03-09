@@ -117,7 +117,32 @@
         color: #fff;
         text-decoration: underline;
       }
+      .markdown-section h1[align="center"] {
+        background: url("./assets/title.svg") 50% 50% no-repeat;
+        overflow: hidden;
+        text-indent: -2000em;
+        height: 4em;
+        margin: 2em;
+      }
     </style>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/site.webmanifest" />
   </head>
 
   <body>
@@ -221,7 +246,7 @@
       list.classList.add("icon-list");
       logos.forEach(function(name) {
         const img = document.createElement("img");
-        img.setAttribute("src", "./logos/" + name);
+        img.setAttribute("src", "./assets/logos/" + name);
         list.appendChild(img);
       });
       var main = document.documentElement;
