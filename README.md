@@ -28,8 +28,6 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Pika**](https://pika.dev/) ([GitHub](https://github.com/pikapkg/pack))
   - Build `npm` packages using composable plugins
-- [**Next.js**](https://nextjs.org/) ([GitHub](https://github.com/zeit/next.js))
-  - React framework for server-side rendering
 - [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
   - Zero-configuration presets for React, Preact, Vue, web and Node.js projects and libraries
 - **nwb** ([GitHub](https://github.com/insin/nwb))
@@ -41,6 +39,8 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Create React App**](https://create-react-app.dev/) ([GitHub](https://github.com/facebook/create-react-app))
   - The most popular React project initializer; supports TypeScript and many other tools, and is a safe choice for starting a React app
+- [**Next.js**](https://nextjs.org/) ([GitHub](https://github.com/zeit/next.js))
+  - React framework for server-side rendering
 - [**Gatsby**](https://www.gatsbyjs.org/) ([GitHub](https://github.com/gatsbyjs/gatsby))
   - PWA and static site generator
 - [**React Starter Kit**](https://reactstarter.com/) ([GitHub](https://github.com/kriasoft/react-starter-kit))
