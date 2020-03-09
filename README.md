@@ -35,7 +35,7 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
   - Library-oriented preset for TypeScript
 
-### React presets
+### React presets and frameworks
 
 - [**Create React App**](https://create-react-app.dev/) ([GitHub](https://github.com/facebook/create-react-app))
   - The most popular React project initializer; supports TypeScript and many other tools, and is a safe choice for starting a React app
