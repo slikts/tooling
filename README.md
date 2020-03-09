@@ -125,7 +125,7 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
 ### Version managers
 
 - **`nvm`** ([GitHub](https://github.com/nvm-sh/nvm))
-  A commonly used version manager for Node.js
+  - A commonly used version manager for Node.js
 - **`fnm`** ([GitHub](https://github.com/Schniz/fnm))
   - Fast Node Manager; built in native ReasonML
 
@@ -151,7 +151,7 @@ Tools for end-to-end, integration and unit testing.
 > [_npm trends_](https://www.npmtrends.com/testcafe-vs-cypress-vs-jest-vs-karma-vs-ava-vs-nightwatch-vs-puppeteer) 📈
 
 - [**Jest**](https://jestjs.io/) ([GitHub](https://github.com/facebook/jest))
-  - A popular, well-polished test runner; supports TypeScript via `@babel/preset-typescript` and `babel-jest`; includes tools for spies, stubs, mocks and assertions
+  - Popular, well-polished test runner; supports TypeScript via `@babel/preset-typescript` and `babel-jest`; includes tools for spies, stubs, mocks and assertions
   - **Majestic** ([GitHub](https://github.com/Raathigesh/majestic))
     - GUI for Jest
   - [**`jest-stare`**](https://dkelosky.github.io/jest-stare/) ([GitHub](https://github.com/dkelosky/jest-stare))
@@ -165,14 +165,14 @@ Tools for end-to-end, integration and unit testing.
 #### End-to-end testing focused frameworks
 
 - [**TestCafe**](https://devexpress.github.io/testcafe/) ([GitHub](https://github.com/DevExpress/testcafe))
-  - A Node.js tool to automate end-to-end web testing
+  - Automate end-to-end web testing
 - [**Cypress**](https://www.cypress.io/)
   - End-to-end test runner
   - **`cypress-testing-library`** ([GitHub](https://github.com/testing-library/cypress-testing-library))
     - Custom Cypress commands and utilities to avoid testing implementation details
 - [**Nightwatch**](https://nightwatchjs.org/) ([GitHub](https://github.com/nightwatchjs/nightwatch))
 - [**Puppeteer**](https://pptr.dev/) ([GitHub](https://github.com/puppeteer/puppeteer))
-  - A library for controlling headless Chrome or Chromium instances
+  - Library for controlling headless Chrome or Chromium instances
 - **Playwright** ([GitHub](https://github.com/microsoft/playwright))
   - Node library to automate the Chromium, WebKit and Firefox browsers with a single API; made by Microsoft
 
@@ -298,7 +298,7 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
 - **npm** ([GitHub](https://github.com/npm/cli))
   - The package manager included with Node.js
 - [**Yarn**](https://yarnpkg.com/) ([GitHub](https://github.com/yarnpkg/yarn))
-  - A replacement for `npm`
+  - Replacement for `npm`
   - Recently released [Yarn 2](https://dev.to/arcanis/introducing-yarn-2-4eh1)
 - **tink** ([GitHub](https://github.com/npm/tink))
   - Experimental "dependency unwinder"
@@ -334,11 +334,11 @@ Useful for generating library type definitions; can be replaced with `tsc` for a
 ### Other
 
 - **`patch-package`** ([GitHub](https://github.com/ds300/patch-package))
-  - A tool to fix issues with packages without having to fork them or wait for an official patch
+  - Fix issues with packages without having to fork them or waiting
 - **`npm-package-scripts`** (`nps`) ([GitHub](https://github.com/sezna/nps))
   - A specialized tool for having complex `npm` scripts
 - **`bundlesize`** ([GitHub](https://github.com/siddharthkp/bundlesize))
-  - A configurable tool to set bundle size limits
+  - Set configurable bundle size limits
 - **Size Limit** ([GitHub](https://github.com/ai/size-limit))
   - Performance budget tool
 - **Depcheck** ([GitHub](https://github.com/depcheck/depcheck))
@@ -429,7 +429,7 @@ Tools for developing and testing components and for creating style guides and re
 - [**Metro**](https://facebook.github.io/metro/) ([GitHub](https://github.com/facebook/metro))
   - Bundler for React Native
 - **Bundle Buddy** ([GitHub](https://github.com/samccone/bundle-buddy))
-  - A tool to identify bundle duplication across splits.
+  - Identify bundle duplication across splits
 - [**terser**](https://terser.org/) ([GitHub](https://github.com/terser/terser))
   - A more modern alternative to UglifyJS for "minifying" and obfuscating code
 - [**Danger.js**](https://danger.systems/js/) ([GitHub](https://github.com/danger/danger-js))
@@ -462,7 +462,7 @@ Tools for developing and testing components and for creating style guides and re
 - **`try`** ([GitHub](https://github.com/BrunnerLivio/try))
   - Quickly try out `npm` packages in a container
 - **`webpack-nano`** ([GitHub](https://github.com/shellscape/webpack-nano))
-  - A lightweight, configurable alternative to `webpack-cli`
+  - Lightweight, configurable alternative to `webpack-cli`
 - [**`npkill`**](https://voidcosmos.github.io/npkill/) ([GitHub](https://github.com/voidcosmos/npkill))
   - List and clean up all `node_modules` directories
 - [**TypL**](https://TypL.dev) ([GitHub](https://github.com/getify/TypL))
@@ -484,13 +484,13 @@ Tools for developing and testing components and for creating style guides and re
 ## 🙈 See also
 
 - [**JSter**](http://jster.net/blog)
-  - A blog about libraries and tools
+  - Popular blog about libraries and tools
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
 - [**Awesome lists**](https://github.com/sindresorhus/awesome)
 - [**StackShare**](https://stackshare.io/)
-  - Site for finding and vetting developer tools
+  - Social network centered around finding and vetting developer tools
 - [**Free for developers**](https://free-for.dev/)
-  - A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+  - List of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 
 ### Outdated resources
 
