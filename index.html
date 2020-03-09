@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Tooling for JavaScript and TypeScript</title>
+    <title>Tooling overview</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta
       name="description"
-      content="Overview of developer and build tools for the JavaScript and TypeScript ecosystem."
+      content="Overview of developer and build tools in the JavaScript and TypeScript ecosystem."
     />
     <meta
       name="viewport"
@@ -29,27 +29,26 @@
         margin-bottom: 16px;
         padding-bottom: 0.3em;
       }
-      .sidebar-nav > ul > li:first-child {
-        display: none;
-      }
-      .sidebar-nav > ul > ul > li {
+      .sidebar-nav > ul > li {
         position: relative;
       }
-      .sidebar-nav > ul > ul > li a {
-        font-weight: 500;
+      .sidebar-nav > ul > li a {
       }
       .markdown-section > h2 {
         position: relative;
       }
       .markdown-section > h2:before,
-      .sidebar-nav > ul > ul > li:before {
+      .sidebar-nav > ul > li:before {
         content: attr(data-icon);
         position: absolute;
       }
-      .sidebar-nav > ul > ul > li:before {
+      .sidebar-nav > ul > li:before {
         top: 50%;
         right: 100%;
         transform: translate(-0.25rem, -50%);
+      }
+      body .sidebar {
+        padding-left: 2.1em;
       }
       .markdown-section > h2:before {
         height: 0;
@@ -67,7 +66,7 @@
         user-select: none;
       }
       .icon-list img {
-        height: 2em;
+        height: 1em;
         display: inline-block;
         margin-right: 0.5em;
       }
@@ -82,7 +81,7 @@
       .marquee {
         position: absolute;
         left: 0;
-        top: 1em;
+        top: 0.5em;
         width: 100vw;
         max-width: 100%;
         height: 2em;
@@ -94,17 +93,43 @@
         will-change: transform;
         animation: marquee 160s linear infinite;
       }
+      .markdown-section strong {
+        color: inherit;
+      }
+      .markdown-section a strong {
+        color: #fff;
+      }
       #main {
         margin-top: 5em;
       }
       .github-corner {
         position: fixed;
       }
+      #loading {
+        text-align: center;
+        position: absolute;
+        margin-top: 2em;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 100%;
+      }
+      #loading a {
+        color: #fff;
+        text-decoration: underline;
+      }
     </style>
   </head>
 
   <body>
-    <div id="app">Please wait…</div>
+    <div id="app">
+      <div id="loading">
+        <p>Loading, please wait…</p>
+        <p style="font-size: 1rem;">
+          This content can also be
+          <a href="https://github.com/slikts/tooling">viewed in GitHub</a>.
+        </p>
+      </div>
+    </div>
     <script>
       window.$docsify = {
         coverpage: false,
@@ -112,7 +137,7 @@
         loadSidebar: false,
         coverpage: false,
         routerMode: "history",
-        subMaxLevel: 0,
+        maxLevel: 3,
         plugins: [
           function(hook, vm) {
             function setupIcon(el) {
@@ -123,7 +148,7 @@
             }
             hook.ready(function() {
               document
-                .querySelectorAll(".sidebar-nav > ul > ul > li")
+                .querySelectorAll(".sidebar-nav > ul > li")
                 .forEach(setupIcon);
               document
                 .querySelectorAll(".markdown-section > h2")
@@ -177,7 +202,7 @@
       ];
       logos = Array.prototype.concat.apply(
         [],
-        Array.from({ length: 5 }, function() {
+        Array.from({ length: 10 }, function() {
           return shuffle(logos);
         })
       );
@@ -202,7 +227,7 @@
       var main = document.documentElement;
       main.insertBefore(marquee, main.firstChild);
     </script>
-    <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="//unpkg.com/docsify@4.11.1/lib/docsify.min.js"></script>
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   </body>
 </html>
