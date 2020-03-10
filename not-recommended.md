@@ -89,7 +89,6 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - **js-beautify** ([GitHub](https://github.com/beautify-web/js-beautify))
   - Prettier is a modern alternative
 - **precise-commits** ([GitHub](https://github.com/nrwl/precise-commits))
-- [**NPMCompare.com**](https://npmcompare.com/)
 - [**DocPad**](https://docpad.bevry.me/) ([GitHub](https://github.com/docpad/docpad))
 - [**JSMin**](http://javascript.crockford.com/jsmin.html) ([GitHub](https://github.com/douglascrockford/JSMin))
 - [**CoffeeScript**](https://coffeescript.org/) ([GitHub](https://github.com/jashkenas/coffeescript))
