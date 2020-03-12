@@ -28,12 +28,12 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Pika**](https://pika.dev/) ([GitHub](https://github.com/pikapkg/pack))
   - Build `npm` packages using composable plugins
-- [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
-  - Zero-configuration presets for React, Preact, Vue, web and Node.js projects and libraries
 - **nwb** ([GitHub](https://github.com/insin/nwb))
   - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
 - **TSDX** ([GitHub](https://github.com/jaredpalmer/tsdx))
   - Library-oriented preset for TypeScript
+- [**Neutrino**](https://neutrinojs.org/) ([GitHub](https://github.com/neutrinojs/neutrino/))
+  - Zero-configuration presets for React, Preact, Vue, web and Node.js projects and libraries; lacks TypeScript support
 
 ### React presets and frameworks
 
