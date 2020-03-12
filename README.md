@@ -46,6 +46,11 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - [**React Starter Kit**](https://reactstarter.com/) ([GitHub](https://github.com/kriasoft/react-starter-kit))
   - "[Isomorphic](https://medium.com/airbnb-engineering/isomorphic-javascript-the-future-of-web-apps-10882b7a2ebc#.4nyzv6jea)" (universal) web app boilerplate
 
+### Toolchains
+
+- [**Rome**](https://romejs.dev/) ([GitHub](https://github.com/facebookexperimental/rome))
+  - Rome is an experimental JavaScript toolchain from Facebook which includes a compiler, linter, formatter, bundler, testing framework and more
+
 ## 🚚 Bundlers
 
 > [_npm trends_](https://www.npmtrends.com/parcel-vs-webpack-vs-rollup-vs-fuse-box-vs-poi-vs-microbundle-vs-happypack-vs-fastpack-vs-webpack-jarvis-vs-browserify) 📈
@@ -64,8 +69,6 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
   - Zero-config bundler based on webpack
 - [**browserify**](http://browserify.org/) ([GitHub](https://github.com/browserify/browserify))
   - The first JavaScript bundler around
-- **Rome** ([GitHub](https://github.com/facebookexperimental/rome))
-  - Rome is an experimental JavaScript toolchain which includes bundler
 
 ### Other
 
@@ -86,8 +89,6 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
   - Very fast Babel alternative written in Rust
 - [**TypeScript**](https://www.typescriptlang.org/) ([GitHub](https://github.com/microsoft/TypeScript))
   - JavaScript with gradual typing; particularly useful for library authors and larger projects
-- **Rome** ([GitHub](https://github.com/facebookexperimental/rome))
-  - Rome is an experimental JavaScript toolchain which includes compiler
 
 ## 🧫 Code generators
 
@@ -122,8 +123,6 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
     - Skips running Prettier on unchanged files
 - **XO** ([GitHub](https://github.com/xojs/xo))
   - Opinionated (zero-config), configurable ESLint wrapper
-- **Rome** ([GitHub](https://github.com/facebookexperimental/rome))
-  - Rome is an experimental JavaScript toolchain which includes formatter and linter
 
 ## 🐌 Runtimes
 
@@ -158,8 +157,6 @@ Tools for end-to-end, integration and unit testing.
   - BDD or TDD assertion library
 - [**Sinon**](https://sinonjs.org/) ([GitHub](https://github.com/sinonjs/sinon))
   - Test spies, stubs and mocks
-- **Rome** ([GitHub](https://github.com/facebookexperimental/rome))
-  - Rome is an experimental JavaScript toolchain which includes testing framework
 
 ### Test runners
 
