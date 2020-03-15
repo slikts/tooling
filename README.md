@@ -409,6 +409,7 @@ Tools for developing and testing components and for creating style guides and re
 - **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
 - **`ttypescript`** ([GitHub](https://github.com/cevek/ttypescript))
   - Wraps `tsc` to enable transforming the compiled code
+- [**tsdoc**](https://microsoft.github.io/tsdoc/) ([GitHub](https://github.com/microsoft/tsdoc))
 
 ### React
 
