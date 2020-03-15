@@ -291,6 +291,14 @@ Tools for end-to-end, integration and unit testing.
 - [**Tsearch**](https://tsearch.io) ([GitHub](https://github.com/tsearch-io/tsearch))
   - Search functions in different packages by their type signature
 
+### Documentation
+
+- [**TSDoc**](https://microsoft.github.io/tsdoc/) ([GitHub](https://github.com/microsoft/tsdoc))
+  - A documentation comment standard
+- [**API Extractor**](https://api-extractor.com/) ([GitHub](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/README.md))
+  - Analysis tool that can extract API reports for an API review workflow, bundle multiple declaration files into one, and extract a documentation model and generate an API reference website from it
+- See also: [**TypeDoc**](#📚-documentation-generators)
+
 ### Rollup plugins
 
 > [_npm trends_](https://www.npmtrends.com/@wessberg/rollup-plugin-ts-vs-rollup-plugin-typescript2) 📈
@@ -409,7 +417,6 @@ Tools for developing and testing components and for creating style guides and re
 - **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
 - **`ttypescript`** ([GitHub](https://github.com/cevek/ttypescript))
   - Wraps `tsc` to enable transforming the compiled code
-- [**TSDoc**](https://microsoft.github.io/tsdoc/) ([GitHub](https://github.com/microsoft/tsdoc))
 
 ### React
 
@@ -463,7 +470,6 @@ Tools for developing and testing components and for creating style guides and re
 - **`ifdef-loader`** ([GitHub](https://github.com/nippur72/ifdef-loader))
 - **`ncc`** ([GitHub](https://github.com/zeit/ncc))
 - [**BundlePhobia**](https://bundlephobia.com/)
-- [**API Extractor**](https://api-extractor.com/) ([GitHub](https://github.com/microsoft/rushstack/blob/master/apps/api-extractor/README.md))
 - [**Neutralino**](https://neutralino.js.org/) ([GitHub](https://github.com/neutralinojs/neutralinojs))
   - Portable and lightweight cross platform application development framework
 - [**Phenomic**](https://phenomic.io/) ([GitHub](https://github.com/phenomic/phenomic))
@@ -494,7 +500,6 @@ Tools for developing and testing components and for creating style guides and re
 - [**PM2**](https://pm2.io) ([GitHub](https://github.com/Unitech/pm2))
   - Node.js production process manager with a built-in load balancer
 - [**NPMCompare.com**](https://npmcompare.com/)
-- [**tsdoc**](https://microsoft.github.io/tsdoc/) ([GitHub](https://github.com/microsoft/tsdoc))
 
 ## 💀 Legacy or not recommended tools
 
