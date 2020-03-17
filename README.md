@@ -51,11 +51,6 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 - [**Rome**](https://romejs.dev/) ([GitHub](https://github.com/facebookexperimental/rome))
   - Rome is an experimental JavaScript toolchain from Facebook which includes a compiler, linter, formatter, bundler, testing framework and more
 
-### Boilerplates
-
-- **TypeScript Node Starter** ([GitHub](https://github.com/microsoft/TypeScript-Node-Starter))
-  - Microsoft's end-to-end project setup for Node.js using TypeScript
-
 ## 🚚 Bundlers
 
 > [_npm trends_](https://www.npmtrends.com/parcel-vs-webpack-vs-rollup-vs-fuse-box-vs-poi-vs-microbundle-vs-happypack-vs-fastpack-vs-webpack-jarvis-vs-browserify) 📈
@@ -422,6 +417,8 @@ Tools for developing and testing components and for creating style guides and re
 - **`node-typescript-boilerplate`** ([GitHub](https://github.com/jsynowiec/node-typescript-boilerplate))
 - **`ttypescript`** ([GitHub](https://github.com/cevek/ttypescript))
   - Wraps `tsc` to enable transforming the compiled code
+- **TypeScript Node Starter** ([GitHub](https://github.com/microsoft/TypeScript-Node-Starter))
+  - Microsoft's end-to-end project setup for Node.js using TypeScript
 
 ### React
 
