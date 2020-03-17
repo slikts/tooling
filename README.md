@@ -446,6 +446,11 @@ Tools for developing and testing components and for creating style guides and re
 - **`jest-react-profiler`** ([GitHub](https://github.com/bvaughn/jest-react-profiler))
   - Jest helpers for working with the React Profiler API
 
+### Linting
+
+- **`eslint-plugin-filenames`** ([GitHub](https://github.com/selaux/eslint-plugin-filenames))
+- **`ls-lint`** ([GitHub](https://github.com/loeffel-io/ls-lint))
+
 ### Other
 
 - [**Metro**](https://facebook.github.io/metro/) ([GitHub](https://github.com/facebook/metro))
