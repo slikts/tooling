@@ -26,7 +26,7 @@ Criticism, adding omissions and other contributions are [welcome][issues].
 
 Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don't require configuration to start using them. Presets are recommended when starting out and to save the time and effort of building and maintaing a custom stack, but can be limited in certain aspects.
 
-- [**Pika**](https://pika.dev/) ([GitHub](https://github.com/pikapkg/pack))
+- [**@pika/pack**](https://www.pika.dev/blog/introducing-pika-pack/) ([GitHub](https://github.com/pikapkg/pack))
   - Build `npm` packages using composable plugins
 - **nwb** ([GitHub](https://github.com/insin/nwb))
   - Toolkit for quick development with React, Inferno, Preact or vanilla JavaScript
@@ -50,6 +50,11 @@ Presets, generators or [initializers](https://docs.npmjs.com/cli/init) that don'
 
 - [**Rome**](https://romejs.dev/) ([GitHub](https://github.com/facebookexperimental/rome))
   - Rome is an experimental JavaScript toolchain from Facebook which includes a compiler, linter, formatter, bundler, testing framework and more
+
+### Boilerplates
+
+- **TypeScript Node Starter** ([GitHub](https://github.com/microsoft/TypeScript-Node-Starter))
+  - Microsoft's end-to-end project setup for Node.js using TypeScript
 
 ## 🚚 Bundlers
 
