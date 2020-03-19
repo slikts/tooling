@@ -141,7 +141,7 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
 - **`fnm`** ([GitHub](https://github.com/Schniz/fnm))
   - Fast Node Manager; built in native ReasonML
 - [**Volta**](https://volta.sh/) ([GitHub](https://github.com/volta-cli/volta))
-  - Fast, reliable and universal verion manager for the whole Node.js toolchain; written in Rust
+  - Fast, reliable and universal version manager for the whole Node.js toolchain; written in Rust
 
 ## 🏃 Testing
 
