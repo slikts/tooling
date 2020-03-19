@@ -290,6 +290,8 @@ Tools for end-to-end, integration and unit testing.
   - `nodemon` for TypeScript
 - [**Tsearch**](https://tsearch.io) ([GitHub](https://github.com/tsearch-io/tsearch))
   - Search functions in different packages by their type signature
+- **`dts-bundle-generator`** ([GitHub](https://github.com/timocov/dts-bundle-generator))
+  - Tool to generate a single bundle of dts
 
 ### Documentation
 
