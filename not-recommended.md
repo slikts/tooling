@@ -84,8 +84,8 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
   - Replaced by [React Fast Refresh](https://github.com/facebook/react/issues/16604)
 - **Retire.js** ([GitHub](https://github.com/RetireJS/retire.js))
 - **next-update** ([GitHub](https://github.com/bahmutov/next-update))
-- **dtslint** ([GitHub](https://github.com/microsoft/dtslint))
-  - `tsd` should be used instead
+- **tsd** ([GitHub](https://github.com/DefinitelyTyped/tsd))
+  - `npm install @types/<package>` should be used instead
 - **js-beautify** ([GitHub](https://github.com/beautify-web/js-beautify))
   - Prettier is a modern alternative
 - **precise-commits** ([GitHub](https://github.com/nrwl/precise-commits))
