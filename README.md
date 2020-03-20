@@ -401,6 +401,8 @@ Tools for developing and testing components and for creating style guides and re
   - A development environment for scalable, high-quality UIs and visual TDD
 - [**Diez**](https://diez.org/) ([GitHub](https://github.com/diez/diez))
   - Developer toolkit for building [design tokens](https://diez.org/glossary/#tokens)
+- [**React Figma**](https://react-figma.now.sh/) ([GitHub](https://github.com/react-figma/react-figma))
+  - Render React components to [Figma](https://www.figma.com/)  
 
 ## ❌ Cross-platform
 
@@ -445,8 +447,6 @@ Tools for developing and testing components and for creating style guides and re
 
 ### React
 
-- **React Figma** ([GitHub](https://github.com/react-figma/react-figma))
-  - Render React components to [Figma](https://www.figma.com/)
 - **`jest-react-profiler`** ([GitHub](https://github.com/bvaughn/jest-react-profiler))
   - Jest helpers for working with the React Profiler API
 
