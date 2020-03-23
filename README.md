@@ -155,10 +155,23 @@ Tools for end-to-end, integration and unit testing.
   - Test framework
 - [**Jasmine**](https://jasmine.github.io/) ([GitHub](https://github.com/jasmine/jasmine))
   - BDD testing framework
-- [**chai**](https://www.chaijs.com/) ([GitHub](https://github.com/chaijs/chai))
-  - BDD or TDD assertion library
+- [**Chai**](https://www.chaijs.com/) ([GitHub](https://github.com/chaijs/chai))
+  - BDD or TDD assertion library for Node.js and browsers
 - [**Sinon**](https://sinonjs.org/) ([GitHub](https://github.com/sinonjs/sinon))
   - Test spies, stubs and mocks
+
+#### "Over the wire" test doubles
+
+> [_npm trends_](https://www.npmtrends.com/nock-vs-supertest-vs-mountebank-vs-chai-http) 📈
+
+- **Nock** ([GitHub](https://github.com/nock/nock#readme))
+  - HTTP server mocking and expectations library for Node.js
+- **SuperTest** ([GitHub](https://github.com/visionmedia/supertest))
+  - HTTP assertions using [superagent](http://github.com/visionmedia/superagent)
+- [**Mountebank**](http://www.mbtest.org/) ([GitHub](https://github.com/bbyars/mountebank))
+  - Service virtualization tool with support for mock verification, stubbing with advanced predicates, JavaScript injection, and record-playback through proxying; supports HTTP, TCP and SMTP and can support custom protocols
+- [**Chai HTTP**](http://chaijs.com/plugins/chai-http) ([GitHub](https://github.com/chaijs/chai-http))
+  - HTTP integration testing addon for Chai
 
 ### Test runners
 
@@ -189,11 +202,6 @@ Tools for end-to-end, integration and unit testing.
   - Library for controlling headless Chrome or Chromium instances
 - **Playwright** ([GitHub](https://github.com/microsoft/playwright))
   - Node library to automate the Chromium, WebKit and Firefox browsers with a single API; made by Microsoft
-
-#### Test doubles (Mocking, faking, stubbing, spying)
-
-- [**Mountebank**](https://mbtest.org) ([GitHub](https://github.com/bbyarg/mountebank))
-  - Advanced mocking of RESTful API backends. Written in JavaScript but can be used in projects in any programming language.
 
 ### React testing
 
