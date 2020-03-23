@@ -297,6 +297,7 @@ Tools for end-to-end, integration and unit testing.
   - Generate TypeScript types from GraphQL schema; invaluable for large projects
 - **tsd** ([GitHub](https://github.com/SamVerschueren/tsd))
   - Check TypeScript type definitions with assertions
+  - A recent alternative is [`@ts-expect-error`](https://github.com/microsoft/TypeScript/pull/36014)
 - [**AssemblyScript**](https://docs.assemblyscript.org/) ([GitHub](https://github.com/AssemblyScript/assemblyscript))
   - Compile TypeScript to WASM
 - [**ts-jest**](https://kulshekhar.github.io/ts-jest) ([GitHub](https://github.com/kulshekhar/ts-jest))
