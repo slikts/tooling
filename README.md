@@ -151,7 +151,7 @@ Tools for end-to-end, integration and unit testing.
 
 ### Test libraries and frameworks
 
-> [_npm trends_](https://www.npmtrends.com/mocha-vs-chai-vs-jest-vs-jasmine-vs-expect.js-vs-should-vs-sinon) 📈
+> [_npm trends_](https://www.npmtrends.com/mocha-vs-chai-vs-jest-vs-jasmine-vs-expect.js-vs-should-vs-sinon-vs-testdouble) 📈
 
 - [**Mocha**](https://mochajs.org/) ([GitHub](https://github.com/mochajs/mocha))
   - Test framework
@@ -161,6 +161,8 @@ Tools for end-to-end, integration and unit testing.
   - BDD or TDD assertion library for Node.js and browsers
 - [**Sinon**](https://sinonjs.org/) ([GitHub](https://github.com/sinonjs/sinon))
   - Test spies, stubs and mocks
+- **testdouble.js** ([GitHub](https://github.com/testdouble/testdouble.js))
+  - A minimal test double library for TDD
 
 #### "Over the wire" test doubles
 
