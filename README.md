@@ -101,7 +101,7 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
 
 ## 💅 Formatters and linters
 
-> [_npm trends_](https://www.npmtrends.com/eslint-vs-prettier-vs-xo-vs-standard-vs-eslint-config-airbnb-vs-tslint-vs-eslint-config-google-vs-jshint-vs-js-beautify) 📈
+> [_npm trends_](https://www.npmtrends.com/eslint-vs-prettier-vs-xo-vs-standard-vs-eslint-config-airbnb-vs-tslint-vs-eslint-config-google-vs-jshint-vs-js-beautify-vs-zoe) 📈
 
 - [**ESLint**](https://eslint.org/) ([GitHub](https://github.com/eslint/eslint))
   - The defacto standard linter for JavaScript (and TypeScript since `typescript-eslint`)
