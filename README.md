@@ -190,6 +190,11 @@ Tools for end-to-end, integration and unit testing.
 - **Playwright** ([GitHub](https://github.com/microsoft/playwright))
   - Node library to automate the Chromium, WebKit and Firefox browsers with a single API; made by Microsoft
 
+#### Test doubles (Mocking, faking, stubbing, spying)
+
+- [**Mountebank**](https://mbtest.org) ([GitHub](https://github.com/bbyarg/mountebank))
+  - Advanced mocking of RESTful API backends. Written in JavaScript but can be used in projects in any programming language.
+
 ### React testing
 
 - [**Enzyme**](https://enzymejs.github.io/enzyme/) ([GitHub](https://github.com/enzymejs/enzyme))
@@ -402,7 +407,7 @@ Tools for developing and testing components and for creating style guides and re
 - [**Diez**](https://diez.org/) ([GitHub](https://github.com/diez/diez))
   - Developer toolkit for building [design tokens](https://diez.org/glossary/#tokens)
 - [**React Figma**](https://react-figma.now.sh/) ([GitHub](https://github.com/react-figma/react-figma))
-  - Render React components to [Figma](https://www.figma.com/)  
+  - Render React components to [Figma](https://www.figma.com/)
 
 ## ❌ Cross-platform
 
