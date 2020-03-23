@@ -123,6 +123,8 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
     - Skips running Prettier on unchanged files
 - **XO** ([GitHub](https://github.com/xojs/xo))
   - Opinionated (zero-config), configurable ESLint wrapper
+- **Zoe** ([GitHub](https://github.com/jorgegonzalez/zoe))
+  - Zero-config ESLint toolchain; includes Prettier and supports Jest and React
 
 ## 🐌 Runtimes
 
