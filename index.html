@@ -25,7 +25,7 @@
 
     <meta
       name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0"
     />
     <link
       rel="stylesheet"
@@ -138,6 +138,12 @@
         text-indent: -2000em;
         height: 4em;
         margin: 2em;
+      }
+      :root {
+        /* --base-background-color: #1e292f;
+        --sidebar-background: #192429;
+        --base-color: #d3d3d3;
+        --blockquote-background: #141e23; */
       }
     </style>
     <link
@@ -254,6 +260,7 @@
       }
       var list = cE("list");
       var marquee = cE("marquee");
+      marquee.setAttribute("aria-hidden", true);
       var track = cE("track");
       marquee.appendChild(track);
       track.appendChild(list);
