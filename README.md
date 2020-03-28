@@ -1,6 +1,6 @@
 <h1 align=center>JavaScript and TypeScript tooling overview</h1>
 
-<p align=center>
+<p align=center aria-hidden=true>
   <a href="https://GitHub.com/slikts/tooling/graphs/contributors/" target="_blank"><img src="https://img.shields.io/github/contributors/slikts/tooling.svg" alt="GitHub contributors"></a>
   <a href="https://GitHub.com/slikts/tooling/issues/" target="_blank"><img src="https://img.shields.io/github/issues/slikts/tooling.svg" alt="GitHub issues"></a>
   <img alt="GitHub" src="https://img.shields.io/github/license/slikts/tooling">
