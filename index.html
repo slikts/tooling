@@ -108,11 +108,15 @@
         will-change: transform;
         animation: marquee 160s linear infinite;
       }
-      .markdown-section strong {
+      /* .markdown-section strong {
         color: inherit;
+      } */
+      .markdown-section {
+        --strong-color: var(--base-color);
       }
-      .markdown-section a strong {
-        color: #fff;
+      .markdown-section a {
+        --strong-color: #fff;
+        color: var(--base-color);
       }
       #main {
         margin-top: 5em;
