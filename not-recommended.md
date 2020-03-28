@@ -77,7 +77,7 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - [**JSLint**](https://jslint.com/) ([GitHub](https://github.com/douglascrockford/JSLint))
   - Ancient despite still being updated
 - **Modernizr** ([GitHub](https://github.com/Modernizr/Modernizr))
-  - Replaced by `@babel/preset-env`
+  - Feature detection can usually be replaced by polyfilling with `@babel/preset-env` ([discussion](https://github.com/slikts/tooling/issues/6))
 - **plato** ([GitHub](https://github.com/es-analysis/plato))
 - **jsinspect** ([GitHub](https://github.com/danielstjules/jsinspect))
 - **React Hot Loader** ([GitHub](https://github.com/gaearon/react-hot-loader))
@@ -85,7 +85,7 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - **Retire.js** ([GitHub](https://github.com/RetireJS/retire.js))
 - **next-update** ([GitHub](https://github.com/bahmutov/next-update))
 - **dtslint** ([GitHub](https://github.com/microsoft/dtslint))
-  - `tsd` should be used instead
+  - `tsd` should be used instead ([discussion](https://github.com/slikts/tooling/pull/8))
 - **js-beautify** ([GitHub](https://github.com/beautify-web/js-beautify))
   - Prettier is a modern alternative
 - **precise-commits** ([GitHub](https://github.com/nrwl/precise-commits))
