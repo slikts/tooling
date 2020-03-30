@@ -62,6 +62,12 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 
 - **blanket** ([GitHub](https://github.com/alex-seville/blanket))
 
+## WebExtensions
+
+- [**Extension Boilerplate**](https://www.emailthis.me/open-source/extension-boilerplate) ([GitHub](https://github.com/EmailThis/extension-boilerplate))
+- **React Chrome Extension Boilerplate** ([GitHub](https://github.com/jhen0409/react-chrome-extension-boilerplate))
+- [**Extensionizr**](http://www.extensionizr.com) ([GitHub](https://github.com/altryne/extensionizr))
+
 ## Other
 
 - [**Grunt**](https://gruntjs.com/) ([GitHub](https://github.com/gruntjs/grunt))

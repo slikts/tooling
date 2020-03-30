@@ -473,6 +473,17 @@ Tools for developing and testing components and for creating style guides and re
 - **`eslint-plugin-filenames`** ([GitHub](https://github.com/selaux/eslint-plugin-filenames))
 - **`ls-lint`** ([GitHub](https://github.com/loeffel-io/ls-lint))
 
+### WebExtensions
+
+- **web-extension-starter** ([GitHub](https://github.com/abhijithvijayan/web-extension-starter))
+- **Chrome Extension CLI** ([GitHub](https://github.com/dutiyesh/chrome-extension-cli))
+- **Chrome Extension Boilerplate** ([GitHub](https://github.com/duo-labs/chrome-extension-boilerplate))
+- **Web Store Upload CLI** ([GitHub](https://github.com/DrewML/chrome-webstore-upload-cli))
+
+#### Extension testing
+
+- **`sinon-chrome`** ([GitHub](https://github.com/acvetkov/sinon-chrome))
+
 ### Other
 
 - [**Metro**](https://facebook.github.io/metro/) ([GitHub](https://github.com/facebook/metro))
