@@ -68,12 +68,17 @@ Tools that are deprecated, out of date, have better alternatives or have only ni
 - **React Chrome Extension Boilerplate** ([GitHub](https://github.com/jhen0409/react-chrome-extension-boilerplate))
 - [**Extensionizr**](http://www.extensionizr.com) ([GitHub](https://github.com/altryne/extensionizr))
 
+## TypeScript
+
+- **`awesome-typescript-loader`** ([GitHub](https://github.com/s-panferov/awesome-typescript-loader))
+  - Replaced by `fork-ts-checker-webpack-plugin`
+- [**TSLint**](https://palantir.github.io/tslint/) ([GitHub](https://github.com/palantir/tslint))
+  - Deprecated in favor of `typescript-eslint`
+
 ## Other
 
 - [**Grunt**](https://gruntjs.com/) ([GitHub](https://github.com/gruntjs/grunt))
 - [**Gulp**](https://gulpjs.com/) ([GitHub](https://github.com/gulpjs/gulp))
-- [**TSLint**](https://palantir.github.io/tslint/) ([GitHub](https://github.com/palantir/tslint))
-  - Deprecated in favor of `typescript-eslint`
 - [**Bower**](http://bower.io/) ([GitHub](https://github.com/bower/bower))
   - Package manager, popular in the jQuery ecosystem
 - **JSHint** ([GitHub](https://github.com/jshint/jshint))

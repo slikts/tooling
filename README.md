@@ -444,6 +444,13 @@ Tools for developing and testing components and for creating style guides and re
 - **TypeScript Node Starter** ([GitHub](https://github.com/microsoft/TypeScript-Node-Starter))
   - Microsoft's end-to-end project setup for Node.js using TypeScript
 
+#### webpack plugins
+
+- **`ts-loader`** ([GitHub](https://github.com/TypeStrong/ts-loader))
+  - TypeScript loader for webpack
+- [**Fork TS Checker Webpack Plugin**](https://blog.johnnyreilly.com/2019/07/typescript-and-eslint-meet-fork-ts-checker-webpack-plugin.html) ([GitHub](https://github.com/TypeStrong/fork-ts-checker-webpack-plugin))
+  - Runs TypeScript type checker in a separate process from webpack
+
 ### React
 
 - **`react-axe`** ([GitHub](https://github.com/dequelabs/react-axe))
