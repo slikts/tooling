@@ -228,6 +228,11 @@ Tools for end-to-end, integration and unit testing.
 - [**Falco**](https://getfal.co) ([GitHub](https://github.com/theodo/falco))
   - Automatically audit performance with [WebPageTest](https://www.webpagetest.org/)
 
+### React performance
+
+- [**`storybook-addon-performance`**](https://storybook-addon-performance.netlify.com) ([GitHub](https://github.com/atlassian-labs/storybook-addon-performance))
+  - Storybook addon for debugging React component performance
+
 ## 📚 Documentation generators
 
 > [_npm trends_](https://www.npmtrends.com/docz-vs-docusaurus-vs-docsify-vs-docute-vs-jsdoc-vs-esdoc-vs-typedoc) 📈
