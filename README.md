@@ -552,6 +552,7 @@ Tools for developing and testing components and for creating style guides and re
 - [**PM2**](https://pm2.io) ([GitHub](https://github.com/Unitech/pm2))
   - Node.js production process manager with a built-in load balancer
 - [**NPMCompare.com**](https://npmcompare.com/)
+- [**ts-engine**](https://ts-engine.dev) ([GitHub](https://github.com/ts-engine/ts-engine))
 
 ## 💀 Legacy or not recommended tools
 
