@@ -302,6 +302,7 @@ Tools for end-to-end, integration and unit testing.
 
 - [**GraphQL Code Generator**](https://graphql-code-generator.com/) ([GitHub](https://github.com/dotansimha/graphql-code-generator))
   - Generate TypeScript types from GraphQL schema; invaluable for large projects
+  - **graphql-let** ([GitHub](https://github.com/piglovesyou/graphql-let))
 - **tsd** ([GitHub](https://github.com/SamVerschueren/tsd))
   - Check TypeScript type definitions with assertions
   - A recent alternative is [`@ts-expect-error`](https://github.com/microsoft/TypeScript/pull/36014)
