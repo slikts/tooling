@@ -554,8 +554,8 @@ Tools for developing and testing components and for creating style guides and re
   - Node.js production process manager with a built-in load balancer
 - [**NPMCompare.com**](https://npmcompare.com/)
 - [**ts-engine**](https://ts-engine.dev) ([GitHub](https://github.com/ts-engine/ts-engine))
-- [**react-typescript-eslint-starter**]([Github])(https://github.com/vtereshyn/react-typescript-eslint-starter)
-  - Quick start with React, Typescript and Eslint
+- [**react-typescript-eslint-starter**](https://vtereshyn.github.io/react-typescript-eslint-starter/)([Github])(https://github.com/vtereshyn/react-typescript-eslint-starter)
+  - Quick start with React/TypeScript without Create React App
 
 ## 💀 Legacy or not recommended tools
 
