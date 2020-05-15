@@ -123,8 +123,12 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
     - Skips running Prettier on unchanged files
 - **XO** ([GitHub](https://github.com/xojs/xo))
   - Opinionated (zero-config), configurable ESLint wrapper
+  - **vscode-linter-xo** ([GitHub](https://github.com/SamVerschueren/vscode-linter-xo))
+    - XO doesn't integrate with ESLint tools, so it requires special support in editors
 - **Zoe** ([GitHub](https://github.com/jorgegonzalez/zoe))
   - Zero-config ESLint toolchain; includes Prettier and supports Jest and React
+- [**dprint**](https://dprint.dev) ([GitHub](https://github.com/dprint/dprint))
+  - TypeScript, JavaScript, and JSONC formatter implemented in Rust; supports Prettier 2.0's ruleset
 
 ## 🐌 Runtimes
 
