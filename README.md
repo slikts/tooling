@@ -87,7 +87,7 @@ Tools that allow "transcompiling" or "transpiling" JavaScript.
     - Tune Babel output for the minimum required level of browser support
 - [**swc**](https://swc-project.github.io/) ([GitHub](https://github.com/swc-project/swc))
   - Very fast Babel alternative written in Rust
-- [**TypeScript**](https://www.typescriptlang.org/) ([GitHub](https://github.com/microsoft/TypeScript))
+- [**TypeScript**](https://www.typescriptlang.org/) ([GitHub](https://github.com/microsoft/TypeScript))<span id="typescript"></span>
   - JavaScript with gradual typing; particularly useful for library authors and larger projects
 
 ## 🧫 Code generators
@@ -444,6 +444,12 @@ Tools for developing and testing components and for creating style guides and re
 - **`eslint-plugin-graphql`** ([GitHub](https://github.com/apollographql/eslint-plugin-graphql))
   - ESLint plugin to validate GraphQL query strings against a schema
 
+## ✔ Static type checkers
+
+- [**Hegel**](https://hegel.js.org) ([GitHub](https://github.com/JSMonk/hegel))
+- [**Flow**](https://flow.org/) ([GitHub](https://github.com/facebook/flow))
+- See also: [**TypeScript**](#typescript)
+
 ## 🚧 Unvetted or uncategorized
 
 ### TypeScript
@@ -558,6 +564,7 @@ Tools for developing and testing components and for creating style guides and re
   - Node.js production process manager with a built-in load balancer
 - [**NPMCompare.com**](https://npmcompare.com/)
 - [**ts-engine**](https://ts-engine.dev) ([GitHub](https://github.com/ts-engine/ts-engine))
+  - Build, lint, test and typechecking functionality for TypeScript packages
 - [**react-typescript-eslint-starter**](https://vtereshyn.github.io/react-typescript-eslint-starter/)([Github])(https://github.com/vtereshyn/react-typescript-eslint-starter)
   - Quick start with React/TypeScript without Create React App
 
