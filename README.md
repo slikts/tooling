@@ -167,6 +167,8 @@ Tools for end-to-end, integration and unit testing.
   - Test spies, stubs and mocks
 - **testdouble.js** ([GitHub](https://github.com/testdouble/testdouble.js))
   - A minimal test double library for TDD
+- **Doctest** ([GitHub](https://github.com/davidchambers/doctest))
+  - Executable usage examples in comments for JavaScript and CoffeeScript
 
 #### "Over the wire" test doubles
 
