@@ -571,6 +571,8 @@ Tools for developing and testing components and for creating style guides and re
   - Build, lint, test and typechecking functionality for TypeScript packages
 - [**react-typescript-eslint-starter**](https://vtereshyn.github.io/react-typescript-eslint-starter/)([Github])(https://github.com/vtereshyn/react-typescript-eslint-starter)
   - Quick start with React/TypeScript without Create React App
+- `dts2hx` ([GitHub](https://github.com/haxiomic/dts2hx))
+  - Converts TypeScript definition files (d.ts) to haxe externs (.hx)
 
 ## 💀 Legacy or not recommended tools
 
