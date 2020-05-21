@@ -582,6 +582,7 @@ Tools for developing and testing components and for creating style guides and re
   - Popular blog about libraries and tools
 - [**StackShare**](https://stackshare.io/)
   - Social network centered around finding and vetting developer tools
+  - [Top 100 developer tools of 2019](https://stackshare.io/posts/top-developer-tools-2019) by StackShare
 - [**Free for developers**](https://free-for.dev/)
   - List of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
