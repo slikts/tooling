@@ -198,6 +198,8 @@ Tools for end-to-end, integration and unit testing.
 - **AVA** ([GitHub](https://github.com/avajs/ava))
 - [**Wallaby**](https://wallabyjs.com/) ([GitHub](https://github.com/wallabyjs/public))
   - Non-free; integrates test output in the editor
+- **Teston** ([GitHub](https://github.com/testonjs/teston))
+  - Fast test runner similar to [tape](https://github.com/substack/tape), but with ES6 module support and simpler subtest syntax
 
 #### End-to-end testing focused frameworks
 
