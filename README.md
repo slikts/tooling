@@ -592,6 +592,8 @@ Tools for developing and testing components and for creating style guides and re
 - [**awesome-web-dev-resources**](https://github.com/mrmartineau/awesome-web-dev-resources)
 - [**Awesome lists**](https://github.com/sindresorhus/awesome)
 - [**SurviveJS**](https://survivejs.com/)
+- [**DevTips**](https://umaar.com/dev-tips/)
+  - Valuable developer tips related to Chrome DevTools, VS Code and other tooling
 
 ### Outdated resources
 
